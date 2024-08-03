@@ -8,12 +8,24 @@ body {
     color: #333;
 }
 
+.container-2 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.rounded-circle-1{
+    width : 300px;
+    height: 300px;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding:0px;
-}
+    
+ }
 .container-text {
     font-size: 40px;
     
@@ -24,7 +36,7 @@ header {
     color:black;
     font-size:15px;
     text-align: center;
-    padding: 1em 0;
+    padding: 0 0;
 }
 .responsive {
     width: 100%;
@@ -103,6 +115,18 @@ ul {
   }
 
 @media only screen and (max-width: 600px) {
+    .container-2 {
+        
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 10px;
+        
+    }
+    .rounded-circle-1 {
+        width :200px;
+        height: 200px;
+    }
     .container-text {
         font-size:18px;
         
