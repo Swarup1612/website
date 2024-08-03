@@ -11,22 +11,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   <body>
     <header>
-      <div class="container">
-        <img src="logo.png" width="80" height="70" />
-        <img
-          src="AI.jpg"
-          class="rounded-circle"
-          alt="..."
-          width="50"
-          height="50"
-        />
-        <div class="container-text">
-          <p><b>Swarup Shailesh Mudholkar</b></p>
+      <div class="container-2">
+        <div class="A">
+          <img src="logo.png" width="80" height="70" />
+          <br />
+          <div class="container-text">
+            <p><b>Swarup Shailesh Mudholkar</b></p>
+          </div>
+          <p class="text"></p>
         </div>
-        <p>Civil Engineer</p>
+
+        <img src="DS.png" class="rounded-circle rounded-circle-1" alt="..." />
       </div>
     </header>
     <img src="bottom.png" class="responsive" />
@@ -36,7 +35,6 @@
         <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
-
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -261,5 +259,17 @@
         &copy; 2024 Swarup Mudholkar. All rights reserved.
       </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var typed = new Typed(".text", {
+          strings: ["Civil Engineer"],
+          typeSpeed: 10,
+          backSpeed: 100,
+          backDelay: 1000,
+          loop: true,
+        });
+      });
+    </script>
   </body>
 </html>
